@@ -18,7 +18,12 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css"
+      integrity="sha512-UyNhw5RNpQaCai2EdC+Js0QL4RlVmiq41DkmCJsRV3ZxipG2L0HhTqIf/H9Hp8ez2EnFlkBnjRGJU2stW3Lj+w=="
+       crossorigin="anonymous" referrerpolicy="no-referrer" 
+       />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -29,10 +34,57 @@
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-      <!-- Timeblocks go here -->
+      <div class="row">
+        <div id='time-block-1' class="col-12 d-flex justify-content-between">
+          <p class="h-100 border-top border-bottom border-secondary pt-4 pl-4 pr-1">9AM</p>
+          <textarea class="time-block pt-3 text-left w-100"></textarea>
+          <button class="time-block btn btn-primary p-4 rounded-lg"><span class="oi oi-cloud-download"></span></button>
+        </div>
+        <div id='time-block-2' class="col-12 d-flex justify-content-between">
+          <p class="h-100 border-top border-bottom border-secondary pt-4 pl-3 pr-1">10AM</p>
+          <textarea class="time-block pt-3 text-left w-100"></textarea>
+          <button class="time-block btn btn-primary p-4 rounded-lg"><span class="oi oi-cloud-download"></span></button>
+        </div>
+        <div id='time-block-3' class="col-12 d-flex justify-content-between">
+          <p class="h-100 border-top border-bottom border-secondary pt-4 pl-3 pr-1">11AM</p>
+          <textarea class="time-block pt-3 text-left w-100"></textarea>
+          <button class="time-block btn btn-primary p-4 rounded-lg"><span class="oi oi-cloud-download"></span></button>
+        </div>
+        <div id='time-block-4' class="col-12 d-flex justify-content-between">
+          <p class="h-100 border-top border-bottom border-secondary pt-4 pl-3 pr-1">12PM</p>
+          <textarea class="time-block pt-3 text-left w-100"></textarea>
+          <button class="time-block btn btn-primary p-4 rounded-lg"><span class="oi oi-cloud-download"></span></button>
+        </div>
+        <div id='time-block-5' class="col-12 d-flex justify-content-between">
+          <p class="h-100 border-top border-bottom border-secondary pt-4 pl-4 pr-1">1PM</p>
+          <textarea class="time-block pt-3 text-left w-100"></textarea>
+          <button class="time-block btn btn-primary p-4 rounded-lg"><span class="oi oi-cloud-download"></span></button>
+        </div>
+        <div id='time-block-6' class="col-12 d-flex justify-content-between">
+          <p class="h-100 border-top border-bottom border-secondary pt-4 pl-4 pr-1">2PM</p>
+          <textarea class="time-block pt-3 text-left w-100"></textarea>
+          <button class="time-block btn btn-primary p-4 rounded-lg"><span class="oi oi-cloud-download"></span></button>
+        </div>
+        <div id='time-block-7' class="col-12 d-flex justify-content-between">
+          <p class="h-100 border-top border-bottom border-secondary pt-4 pl-4 pr-1">3PM</p>
+          <textarea class="time-block pt-3 text-left w-100"></textarea>
+          <button class="time-block btn btn-primary p-4 rounded-lg"><span class="oi oi-cloud-download"></span></button>
+        </div>
+        <div id='time-block-8' class="col-12 d-flex justify-content-between">
+          <p class="h-100 border-top border-bottom border-secondary pt-4 pl-4 pr-1">4PM</p>
+          <textarea class="time-block pt-3 text-left w-100"></textarea>
+          <button class="time-block btn btn-primary p-4 rounded-lg"><span class="oi oi-cloud-download"></span></button>
+        </div>
+        <div id='time-block-9' class="col-12 d-flex justify-content-between">
+          <p class="h-100 border-top border-bottom border-secondary pt-4 pl-4 pr-1">5PM</p>
+          <textarea class="time-block pt-3 text-left w-100"></textarea>
+          <button class="time-block btn btn-primary p-4 rounded-lg"><span class="oi oi-cloud-download"></span></button>
+        </div>
+      </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
