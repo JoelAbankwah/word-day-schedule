@@ -4,7 +4,7 @@
 
 
 ## Purpose
-As a user, I'd like to be able to organize plans for my busy 9-5 work day. This application completes that goal by implementing time blocks that backgrounds change color depending on wether its before that current hour, is that current hour, or past that current hour. It also allows you to make your plans persistent by saving it to your localstorage with the push of a button!
+As a user, I'd like to be able to organize plans for my busy 9-5 work day. This application completes that goal by implementing time blocks that backgrounds change color depending on whether its before that current hour, is that current hour, or past that current hour. It also allows you to make your plans persistent by saving it to your localstorage with the push of a button!
 
 ## Built With
 *HTML
